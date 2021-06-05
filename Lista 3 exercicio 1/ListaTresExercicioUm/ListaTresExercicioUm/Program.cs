@@ -35,7 +35,7 @@ namespace Estudo_Dictionary
                     palavrasColetadas[item.ToLower()] = count + 1;
                 }
             }
-            Console.WriteLine(palavrasColetadas.Count());
+            Console.WriteLine("O numero de palavras repetidas e " + palavrasColetadas.Count());
             return palavrasColetadas;
         }
     }
